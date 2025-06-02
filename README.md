@@ -47,7 +47,4 @@ The objective of this exercise was to analyze network traffic using Wireshark by
 
 This network analysis showed how various protocols are involved in routine network activity. DNS requests resolved domain names, TCP provided reliable connections, and TLS secured the data transfer. Wireshark is highly useful for protocol analysis, network troubleshooting, and cybersecurity research.
 
-## Notes
 
-- Ensure sensitive data (such as IPs or credentials) is anonymized.
-- For deeper inspection, revisit the `.pcapng` file using Wireshark filters like `tcp.port == 443`, `icmp`, `dns`, etc.
